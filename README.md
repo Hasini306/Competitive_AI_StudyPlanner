@@ -1,83 +1,88 @@
-# Competitive AI Study Planner
+# 🚀 Competitive AI Study Planner
 
-A full-stack web application designed to help students prepare for competitive exams with smart study planning, daily task management, mock tests, study materials, and progress tracking. The platform also includes a mentor module to monitor student performance and guide preparation effectively.
-
-## Table of Contents
-- Features
-- Tech Stack
-- Project Structure
-- Quick Start
-- Modules
-- API Endpoints
-- Future Enhancements
-- Author
+An advanced full-stack web application built to help students prepare for competitive exams with smart study planning, daily task tracking, mock tests, study materials, and progress analytics.  
+The platform also includes a mentor module to monitor student performance and guide them effectively.
 
 ---
 
-## Features
+## 🌟 Overview
 
-### Student Features
-- Secure student signup and login authentication
+Competitive AI Study Planner is designed to make exam preparation more structured, organized, and efficient. Students can choose their exam type, subjects, topics, and preparation dates to generate a personalized day-wise study plan. The system also supports daily task unlocking, mock tests, materials access, and performance tracking.
+
+---
+
+## ✨ Features
+
+### 👨‍🎓 Student Module
+- Secure student signup and login
 - Select exam type, subjects, and topics
 - Choose preparation start date and end date
 - Generate personalized day-wise study plan
-- Smart task unlocking system (only current day tasks accessible)
-- Mock tests after task completion
-- Reattempt if score is low
-- Access topic-based study materials
-- View profile and progress analytics
-- Track completed tasks and learning streak
+- Day-wise task unlock system
+- Complete daily study tasks
+- Attempt mock tests after task completion
+- Reattempt when score is low
+- Access subject-wise and topic-wise study materials
+- Track progress through analytics
+- Manage student profile
 
-### Mentor Features
-- Mentor login panel
-- View assigned students
-- Track student progress
-- Monitor task completion status
-- Review performance reports
-
----
-
-## Tech Stack
-
-### Frontend
-- React.js
-- Vite
-- CSS / Tailwind CSS
-- Axios
-
-### Backend
-- Node.js
-- Express.js
-
-### Database
-- MongoDB
-- Mongoose
-
-### Authentication
-- JWT (JSON Web Token)
+### 🧑‍🏫 Mentor Module
+- Mentor login access
+- View student details
+- Monitor student progress
+- Track task completion status
+- Review student performance reports
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```bash
 Competitive_AI_StudyPlanner/
-│── backend/
+├── backend/
 │   ├── config/
 │   ├── controllers/
+│   ├── data/
 │   ├── middlewares/
 │   ├── models/
 │   ├── routes/
 │   ├── utils/
+│   ├── .env
+│   ├── package.json
 │   └── server.js
 │
-│── frontend/
+├── frontend/
 │   ├── public/
 │   ├── src/
 │   │   ├── assets/
 │   │   ├── components/
 │   │   ├── context/
-│   │   └── pages/
+│   │   ├── pages/
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   ├── package.json
 │   └── vite.config.js
 │
 └── README.md
+ ---
+## 🛠️ Tech Stack
+
+### 🎨 Frontend
+- React.js
+- Vite
+- JavaScript
+- CSS / Tailwind CSS
+- Axios
+
+### ⚙️ Backend
+- Node.js
+- Express.js
+
+### 🗄️ Database
+- MongoDB
+- Mongoose
+
+### 🔐 Authentication
+- JWT (JSON Web Token)
+
+---
